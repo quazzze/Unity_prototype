@@ -24,10 +24,10 @@ public class Player_movement : MonoBehaviour
         
         if (rb.velocity.x > 0)
         {
-            transform.rotation = new Quaternion(0, 180, 0 ,0);
+            transform.localRotation = new Quaternion(0, 180, 0, 0);
         } else if (rb.velocity.x < 0)
         {
-            transform.rotation = new Quaternion(0, 0, 0, 0);
+            transform.localRotation = new Quaternion(0, 0, 0, 0);
         }
     }
 }

@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class cell : MonoBehaviour
 {
-    GameObject tree;
-    GameObject Build;
     // Start is called before the first frame update
     void Start()
     {
